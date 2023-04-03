@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="desktop-menu">
+            <div>
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html" class="index">about us</a>
+                    </li>
+                    <li>
+                        <a href="./services.html" class="services">services</a>
+                    </li>
+                    <li>
+                        <a href="./team.html" class="team">our team</a>
+                    </li>
+
+                    <li>
+                        <a href="./offices.html" class="offices">offices</a>
+                    </li>
+
+                    <li>
+                        <a href="./contact.html" class="contact">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="topnav">
+            <div>
+                <img src="./assets/logo.png" alt="" class="logo-mobile">
+            </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="./index.html" class="index">about us</a>
+                <a href="./services.html" class="services">services</a>
+                <a href="./team.html" class="team">our team</a>
+                <a href="./offices.html" class="offices">offices</a>
+                <a href="./contact.html" class="contact">contact us</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+    <main class="main-team">
+        <div class="separator"></div>
+        <h1 class="team-header">OUR TEAM</h1>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./assets/img-mike.png" alt="">
+                <div class="data-container">
+                    <h2 class="data-header">Mike Roitman</h2>
+                    <p class="data-desc">Has financial and operational insight as a result of more than 15 years experience in the shipping industry. With former managing positions at Hanjin Shipping and at Patagonia Shipping Lines he enjoys a vast experience in South America market</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="./assets/img-robert.png" alt="">
+                <div class="data-container">
+                    <h2 class="data-header">Robert Mac Gaw</h2>
+                    <p class="data-desc">Has over 35 years of experience in shipping, with former managing positions at PIL, Hamburg Sud and Inchcape Shipping Services, among other senior roles in the industry. He is also director at Affinity Shipping Argentina, local brand of worldwide shipbroker.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="./assets/img-tommy.png" alt="">
+                <div class="data-container">
+                    <h2 class="data-header">Tommy Mac Gaw</h2>
+                    <p class="data-desc">Has been head of our operations department for the last 8 years. Also responsible for our bunker division, handling over 300 calls per year. He has close relationship with main port terminals and local authorities in Argentina, which is a key in our daily business.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="./assets/img-gallo.png" alt="">
+                <div class="data-container">
+                    <h2 class="data-header">Tomas Guillemi</h2>
+                    <p class="data-desc">He is responsible for our finance department, with 7 years experience in investment and banking activities. Tomas is the one taking care of our principals’ funds.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="imagen-footer">
+            <img src="./assets/img-footer.png" alt="">
+        </div>
+        <div class="socials">
+            <div>
+                <img src="./assets/icon-phone.png" alt="">
+                <a href="tel:+54 11 3398 1296" target="_blank">+54 11 3398 1296</a>
+            </div>
+            <div class="footer-mail">
+                <img src="./assets/icon-mail.png" alt="">
+                <a href="mailto:operations@mclarty.com.ar" target="_blank">operations@mclarty.com.ar</a>
+            </div>
+            <div class="footer-insta">
+                <img src="./assets/icon-instagram.png" alt="">
+                <a href="https://instagram.com/mclartyshippingagents" target="_blank">mclartyshippingagents</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+</html>
