@@ -1,0 +1,6 @@
+$base-color: #08296c;
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+}
